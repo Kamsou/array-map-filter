@@ -16,7 +16,7 @@ En sortie: [
   'Chicken contains 7 characters',
   'Bacon contains 5 characters',
   'Tofu contains 4 characters',
-  'Mayonnaise containscd 10 characters'
+  'Mayonnaise contains 10 characters'
 ]
 
  */
