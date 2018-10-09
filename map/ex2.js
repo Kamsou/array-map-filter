@@ -42,9 +42,20 @@ En sortie: [
 
  */
 
-function getFoodCategories(foods) {
-}
 
+const getFoodCategories = (foods) => {
+  let newTab = []
+  const canIEat = foods.map(x => {
+    if (x.isVegetarian == true){
+      newTab.push(`${x.food} is suitable for vegetarians`)
+    }
+    else {
+      newTab.push(`${x.food} is not suitable for vegetarians`)
+    }
+    
+  })
+  return newTab
+};
 
 
 // Ne pas modifier l'export

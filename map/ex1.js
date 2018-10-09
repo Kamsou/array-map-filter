@@ -16,12 +16,13 @@ En sortie: [
   'Chicken contains 7 characters',
   'Bacon contains 5 characters',
   'Tofu contains 4 characters',
-  'Mayonnaise contains 10 characters'
+  'Mayonnaise containscd 10 characters'
 ]
 
  */
 
-function getStringsLength(strings) {
+const getStringsLength = (strings) => {
+  return strings.map(aled => `${aled} contains ${aled.length} characters`)
 }
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,
